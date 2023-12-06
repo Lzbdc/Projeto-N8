@@ -16,7 +16,7 @@ function adicionaLinha(){
 
 
     if (numeros.includes(inputNumero.value)) {
-        alert(`Este: ${inputNumero.value} já foi inserido`);
+        alert(`Este numero: ${inputNumero.value} já foi inserido`);
     } else{
         numeros.push(inputNumero.value);
         let linha = '<tr>';
